@@ -70,7 +70,7 @@ Author
 ------
 
 Onana Gregoire Legrand
-20 y/o IT student â€” YaoundÃ© I State University
+20 y/o IT student at Yaounde 1 State University
 GitHub: https://github.com/psycho237-prog
 
 License
