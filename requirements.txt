@@ -1,0 +1,49 @@
+# EMMA v2.0 — Dependances Python
+# Toutes les versions fixees pour reproductibilite
+
+# ─── STT (Speech-to-Text) ────────────────────────────────────────────────────
+vosk==0.3.45
+faster-whisper==1.0.3
+
+# ─── TTS (Text-to-Speech) ────────────────────────────────────────────────────
+# piper-tts : installation via pip ou binaire selon la plateforme
+# pip install piper-tts  (ou utiliser le binaire compile)
+gtts==2.5.1
+
+# ─── LLM ─────────────────────────────────────────────────────────────────────
+llama-cpp-python==0.3.8
+ollama==0.2.1
+anthropic==0.28.0
+
+# ─── WebSocket + mDNS ────────────────────────────────────────────────────────
+websockets==12.0
+zeroconf==0.132.2
+
+# ─── GUI & Systeme ────────────────────────────────────────────────────────────
+pyautogui==0.9.54
+psutil==5.9.8
+
+# ─── Hardware & Communication ────────────────────────────────────────────────
+pyserial==3.5
+
+
+# ─── Recherche web & Scraping ─────────────────────────────────────────────────
+duckduckgo-search==6.1.9
+beautifulsoup4==4.12.3
+requests==2.32.3
+
+# ─── Generation documents ────────────────────────────────────────────────────
+python-docx==1.1.2
+reportlab==4.1.0
+
+# ─── Musique ──────────────────────────────────────────────────────────────────
+# yt-dlp et mpv installes separement (binaires systeme)
+# yt-dlp : pip install yt-dlp
+yt-dlp==2024.5.27
+
+# ─── Windows uniquement ───────────────────────────────────────────────────────
+# pycaw==20240210   # Controle volume Windows (decommenter si Windows)
+# wmi==1.5.1        # WMI pour luminosite Windows (decommenter si Windows)
+
+# ─── Packaging ───────────────────────────────────────────────────────────────
+pyinstaller==6.19.0
