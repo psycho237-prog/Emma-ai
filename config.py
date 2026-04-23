@@ -19,7 +19,7 @@ MDNS_NAME      = "emma-pc"          # resolvable as emma-pc.local
 MDNS_SERVICE   = "_emma._tcp.local."
 
 # ─── API Cles (remplir avant utilisation) ─────────────────────────────────────
-GEMINI_API_KEY      = "AIzaSyCR3fwooydM-462KubGRGZj9DgCl0S5Gt4"
+GEMINI_API_KEY      = os.environ.get("GEMINI_API_KEY", "")
 
 ANTHROPIC_API_KEY   = os.environ.get("ANTHROPIC_API_KEY", "")
 CLAUDE_MODEL      = "claude-sonnet-4-5"
